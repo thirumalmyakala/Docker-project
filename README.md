@@ -1,4 +1,15 @@
 # Docker-project
+
+Steps: 
+1. CODE--> Git#1
+2. SCAN--> SONARQUBE(CQA)#2
+3. npm install dependencies#3
+4. OWASP--> to check if dependencies were installed#4
+5. Image Build--> Docker#5
+6. Image Scan --> Trivy#6
+7. DockerHub#7
+8. Deploy container#8
+--------------------------------------------------------------------------------------------------------------------------------------------------
 ## what if we forget jenkins password
 1. we contact jenkins admin for our logins#1
 ## if system admin forgets jenkins password then ?
