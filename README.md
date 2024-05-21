@@ -1,5 +1,5 @@
 # Docker-project
-## what do if we forget jenkins password
+## what if we forget jenkins password
 1. we contact jenkins admin for our logins#1
 ## if system admin forgets jenkins password then ?
 Admin, login as Default User of jenkins and changes admins logins
