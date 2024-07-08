@@ -26,3 +26,6 @@ now it's ask for logins and login with conditionals
 ## if Username forgets
 cd /var/lib/jenkins/users/ 
 user.xml can be seen in this file
+---------------------------------------------------------------------------------------------------------------------------------------------------
+# what to do if you lost key pair
+create snapshot from the old server and add that snapshot to the new server. this way the complete data will be replicated and a new key pair will come.
