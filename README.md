@@ -29,3 +29,14 @@ user.xml can be seen in this file
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 # what to do if you lost key pair
 create snapshot from the old server and add that snapshot to the new server. this way the complete data will be replicated and a new key pair will come.
+
+
+# add secret to k8s pods
+create secret  
+kubectl create secret docker-registry secretname --docker-server=https://index.docker.io/v1/ --docker-username=username --docker-password=dockerpassword
+
+
+add these lines in the pod.yml file
+imagePullSecrets:
+--name: secretname
+
